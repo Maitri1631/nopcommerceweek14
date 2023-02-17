@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6085696700,
+              "duration": 6249210300,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 4,
-        "name": "User should create account successfully",
+        "name": "Verify that user should navigate computer page successfully",
         "description": "",
-        "id": "register;user-should-create-account-successfully",
+        "id": "computer-page;verify-that-user-should-navigate-computer-page-successfully",
         "after": [
           {
             "result": {
-              "duration": 619507800,
+              "duration": 618556500,
               "status": "passed"
             },
             "match": {
@@ -34,75 +34,41 @@
         "steps": [
           {
             "result": {
-              "duration": 62667300,
+              "duration": 740322400,
               "status": "passed"
             },
             "line": 5,
-            "name": "I am on homepage",
+            "name": "I Click on Computer Tab",
             "match": {
-              "location": "LoginSteps.iAmOnHomepage()"
+              "location": "ComputerSteps.i_Click_on_Computer_Tab()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 588437100,
+              "duration": 20215000,
               "status": "passed"
             },
             "line": 6,
-            "name": "I click on register link",
+            "name": "Verify Computer Text",
             "match": {
-              "location": "RegisterStepsDef.i_click_on_register_link()"
+              "location": "ComputerSteps.verify_Computer_Text()"
             },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 22036861600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I enters following users details",
-            "match": {
-              "location": "RegisterStepsDef.i_enters_following_users_details(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "payal",
-                  "patel",
-                  "payalpatel@gmail.com",
-                  "123456",
-                  "123456"
-                ],
-                "line": 8
-              },
-              {
-                "cells": [
-                  "chandni",
-                  "patel",
-                  "chandnipatel@gmail.com",
-                  "123456",
-                  "123456"
-                ],
-                "line": 9
-              }
-            ],
             "keyword": "And "
           }
         ],
         "tags": [
           {
             "line": 3,
-            "name": "@Register"
+            "name": "@computer"
           }
         ]
       }
     ],
-    "name": "Register",
+    "name": "Computer page",
     "description": "",
-    "id": "register",
+    "id": "computer-page",
     "keyword": "Feature",
-    "uri": "Register.feature"
+    "uri": "Computer.feature"
   }
 ]
